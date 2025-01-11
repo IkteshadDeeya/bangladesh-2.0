@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .container {
@@ -35,4 +35,17 @@ body {
   border: none;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.vision-container {
+  display: flex;
+  flex-direction: column;
+}
+.vision-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.vision-content p {
+  color: #5a5a5a;
+  font-weight: 500;
 }

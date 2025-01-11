@@ -35,6 +35,12 @@ body {
   border: none;
   font-size: 1rem;
   font-weight: bold;
+  cursor: pointer;
+}
+.banner-left button:hover {
+  background-color: white;
+  color: #006a50;
+  transition: .3s all;
 }
 
 .vision-container {

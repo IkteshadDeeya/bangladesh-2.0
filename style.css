@@ -287,3 +287,24 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+footer {
+  background-color: white;
+  padding: 50px 0;
+}
+footer h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+.footer-container hr {
+  border: 1px solid rgb(218, 218, 218);
+  width: 70%;
+}
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}

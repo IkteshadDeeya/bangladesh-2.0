@@ -40,7 +40,7 @@ body {
 .banner-left button:hover {
   background-color: white;
   color: #006a50;
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 .vision-container {
@@ -54,4 +54,75 @@ body {
 .vision-content p {
   color: #5a5a5a;
   font-weight: 500;
+}
+.vision-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+.vision-cards p {
+  opacity: 0.7;
+}
+
+.vcard1 {
+  background-color: #96bcff;
+  border-radius: 24px;
+  padding: 50px 30px;
+}
+.vcard1 button {
+  background-color: #5490f5;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.vcard1 button:hover {
+  background-color: white;
+  color: #5490f5;
+  transition: 0.3s all;
+}
+
+.vcard2 {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 50px 30px;
+}
+.vcard2 button {
+  background-color: #006a50;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.vcard2 button:hover {
+  background-color: white;
+  color: #006a50;
+  transition: 0.3s all;
+}
+
+.vcard3 {
+  background-color: #f7ebcf;
+  border-radius: 24px;
+  padding: 50px 30px;
+}
+.vcard3 button {
+  background-color: #ffc107;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.vcard3 button:hover {
+  background-color: white;
+  color: #ffc107;
+  transition: 0.3s all;
 }

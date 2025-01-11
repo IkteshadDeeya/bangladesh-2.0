@@ -1,5 +1,6 @@
 body {
   font-family: "Fira Sans", sans-serif;
+  background-color: #f1f1f3;
 }
 
 .container {
@@ -125,4 +126,77 @@ body {
   background-color: white;
   color: #ffc107;
   transition: 0.3s all;
+}
+
+.quote-container {
+  background-color: white;
+  border-radius: 34px;
+  padding: 20px;
+}
+.quote-content {
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  margin: 20px 20px;
+  padding: 20px 0;
+}
+.quote-content h4 {
+  font-weight: 400;
+  opacity: 0.7;
+}
+.quote-content p {
+  font-size: 1.2rem;
+}
+
+.recent-news-stack button {
+  background-color: #006a50;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.recent-news-stack button:hover {
+  background-color: white;
+  color: #006a50;
+  transition: 0.3s all;
+}
+.recent-news-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.recent-news-stack {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.stack1,
+.stack2 {
+  padding: 40px 50px;
+  border-radius: 34px;
+  background-color: white;
+}
+.stack1 h3,
+.stack2 h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.stack1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.stack2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.stack1 img,
+.stack2 img {
+  border-radius: 24px;
 }
